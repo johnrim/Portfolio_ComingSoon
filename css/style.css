@@ -266,15 +266,15 @@ a.designation {
     color: #fff;
     font-size: 18px;
     margin-bottom: 15px; }
-  .side-left .social-icons {
+/*  .side-left .social-icons {
     float: left;
-    margin-right: 22px; }
+    margin-right: 22px; }*/
     .side-left .social-icons li {
       display: inline-block;
       float: left;
       margin-right: 20px; }
-      .side-left .social-icons li:last-child {
-        margin-right: 0; }
+/*      .side-left .social-icons li:last-child {
+        margin-right: 0; }*/
     .side-left .social-icons .social-icon {
       color: #fff;
       font-size: 18px;
@@ -1221,6 +1221,10 @@ p.tagline, .address-detail a.tagline {
     width: 100%!important;
     padding-left: 40px;
   }
+
+  .side-left .social-icons li:last-child {
+    margin-right: 0; }
+
 /*john's additions*/
 
   .margin-sm-30 {
@@ -1399,7 +1403,6 @@ p.tagline, .address-detail a.tagline {
     width: 87px;
     margin: 25px auto 0 auto;
   }
-  /*john's additions*/
 
   h1 {
     font-size: 40px;
@@ -1411,6 +1414,10 @@ p.tagline, .address-detail a.tagline {
   
   .breakpoint-photo {
     width: 100%; }
+
+  .social-wrpper {
+    padding-left: 0px;}
+
 /*john's additions*/
   .noti-left {
     text-align: center;}
