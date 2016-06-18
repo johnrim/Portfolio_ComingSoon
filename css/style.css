@@ -142,6 +142,10 @@ a.designation {
   color: rgba(251, 37, 61, .8);
 }
 
+.footy .sec-pad-right {
+  padding-right: 0px;
+}
+
 /*john's additions*/
 
 .pad-zero {
@@ -327,7 +331,7 @@ a.designation {
     left: 0;
     right: 0;
     position: absolute;
-    width: 201px;
+    width: 188px;
     margin: 0 auto; }
   .side-left .copyright-text p, .side-left .copyright-text .address-detail a, .address-detail .side-left .copyright-text a {
     font-size: 9px;
